@@ -20,7 +20,6 @@ public class saidasService {
 
         produto.setQuantidade(quantidadeAtual - saida.getQuantidadeSaida());
         produtosRepository.save(produto);
-        // garantir que a saida referencia o produto carregado para serialização completa
         saida.setProduto(produto);
         return saidasRepository.save(saida);
     }

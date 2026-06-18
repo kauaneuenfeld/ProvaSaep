@@ -21,7 +21,6 @@ public class entradasService {
         produto.setQuantidade(quantidadeAtual + entrada.getQuantidadeEntrada());
 
         produtosRepository.save(produto);
-        // garantir que a entrada referencia o produto carregado para serialização completa
         entrada.setProduto(produto);
         return entradasRepository.save(entrada);
     }
