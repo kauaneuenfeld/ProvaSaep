@@ -1,0 +1,308 @@
+{
+  "info": {
+    "_postman_id": "e96d883f-0e64-440b-8545-e7c999971447",
+    "name": "PostmanProvaSaep",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "54503878",
+    "_collection_link": "https://go.postman.co/collection/54503878-e96d883f-0e64-440b-8545-e7c999971447?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "PostProdutosVideoGame",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n\t\"nome\": \"VideoGame\",\r\n\t\"categoria\": \"Tecnologia\",\r\n\t\"quantidade\": 10,\r\n\t\"preco_Unitario\": 659.99\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "localhost:8082/produtos",
+          "host": [
+            "localhost"
+          ],
+          "port": "8082",
+          "path": [
+            "produtos"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "PostProdutoCamisa",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"nome\": \"Camisa\",\r\n\t\"categoria\": \"Vestuario\",\r\n\t\"quantidade\": 50,\r\n\t\"preco_Unitario\": 69.99\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "localhost:8082/produtos",
+          "host": [
+            "localhost"
+          ],
+          "port": "8082",
+          "path": [
+            "produtos"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "PostProdutosComida",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"nome\": \"Hamburguer\",\r\n    \"categoria\": \"Comida\",\r\n\t\"quantidade\": 90,\r\n\t\"preco_Unitario\": 35.99\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "localhost:8082/produtos",
+          "host": [
+            "localhost"
+          ],
+          "port": "8082",
+          "path": [
+            "produtos"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "PostEntradas1",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{   \"dataEntrada\": \"2026-06-15\",   \"quantidadeEntrada\": 5,   \"produto\": {     \"id\": 1   } }",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "localhost:8082/entradas",
+          "host": [
+            "localhost"
+          ],
+          "port": "8082",
+          "path": [
+            "entradas"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "PostEntradas2",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{   \"dataEntrada\": \"2026-06-18\",   \"quantidadeEntrada\": 10,   \"produto\": {     \"id\": 2   } }",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "localhost:8082/entradas",
+          "host": [
+            "localhost"
+          ],
+          "port": "8082",
+          "path": [
+            "entradas"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "PostEntradas3",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{   \"dataEntrada\": \"2026-06-20\",   \"quantidadeEntrada\": 1,   \"produto\": {     \"id\": 3   } }",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "localhost:8082/entradas",
+          "host": [
+            "localhost"
+          ],
+          "port": "8082",
+          "path": [
+            "entradas"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "PostSaidas1",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{   \"dataSaida\": \"2026-07-14\",   \"quantidadeSaida\": 5,   \"produto\": {     \"id\": 1   } }",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "localhost:8082/saidas",
+          "host": [
+            "localhost"
+          ],
+          "port": "8082",
+          "path": [
+            "saidas"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "PostSaidas2",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{   \"dataSaida\": \"2026-07-25\",   \"quantidadeSaida\": 2,   \"produto\": {     \"id\": 2   } }",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "localhost:8082/saidas",
+          "host": [
+            "localhost"
+          ],
+          "port": "8082",
+          "path": [
+            "saidas"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "PostSaidas3",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{   \"dataSaida\": \"2026-08-25\",   \"quantidadeSaida\": 1,   \"produto\": {     \"id\": 3   } }",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "localhost:8082/saidas",
+          "host": [
+            "localhost"
+          ],
+          "port": "8082",
+          "path": [
+            "saidas"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "GetProdutos",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "localhost:8082/produtos",
+          "host": [
+            "localhost"
+          ],
+          "port": "8082",
+          "path": [
+            "produtos"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "GetEntradas",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "localhost:8082/entradas",
+          "host": [
+            "localhost"
+          ],
+          "port": "8082",
+          "path": [
+            "entradas"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "GetSaidas",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "localhost:8082/saidas",
+          "host": [
+            "localhost"
+          ],
+          "port": "8082",
+          "path": [
+            "saidas"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
